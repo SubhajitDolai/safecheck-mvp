@@ -1,0 +1,11 @@
+label,text,urls,sender,spfrecord
+legit,"Your Amazon order has shipped! Track your package at amazon.com","amazon.com","orders@amazon.com","pass"
+phishing,"Your account is locked. Click here to verify: fake-login.com","fake-login.com","support@securebank.com","fail"
+legit,"Meeting at 3pm today. Zoom link: zoom.us","zoom.us","hr@company.com","pass"
+phishing,"Update your KYC details urgently: kyc-update.com","kyc-update.com","service@aadhaar-verify.com","fail"
+legit,"Invoice attached for last month","none","accounts@business.com","pass"
+phishing,"Your UPI is suspended. Reactivate now: upi-fix.com","upi-fix.com","help@upi-support.com","fail"
+legit,"Welcome to Google Workspace!","google.com","admin@google.com","pass"
+phishing,"Your PAN card is blocked. Resolve here: pan-fix.net","pan-fix.net","info@pan-card.com","fail"
+legit,"Password reset requested. If not you, ignore.","none","support@website.com","pass"
+phishing,"Claim your free gift: scam-offers.biz","scam-offers.biz","offers@scam-offers.biz","fail"

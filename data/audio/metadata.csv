@@ -1,0 +1,5 @@
+filename,label
+real1.wav,genuine
+real2.wav,genuine
+spoof1.wav,spoof
+spoof2.wav,spoof
