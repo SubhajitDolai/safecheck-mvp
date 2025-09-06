@@ -1,0 +1,86 @@
+Return-Path: <noreply@legitimate-bank.com>
+Delivered-To: customer@gmail.com
+Received: by gmail.com with SMTP id real123
+        for <customer@gmail.com>; Fri, 6 Sep 2025 16:35:00 +0000 (UTC)
+Received-SPF: pass (gmail.com: domain of noreply@legitimate-bank.com designates 198.51.100.1 as permitted sender) client-ip=198.51.100.1;
+Authentication-Results: gmail.com;
+       spf=pass (gmail.com: domain of noreply@legitimate-bank.com designates 198.51.100.1 as permitted sender) smtp.mail=noreply@legitimate-bank.com;
+       dkim=pass
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=legitimate-bank.com; s=default; h=from:to:subject:date; b=validDKIMsignaturehere...
+Message-ID: <legitimate-message-id-2025-09-06@legitimate-bank.com>
+Date: Fri, 6 Sep 2025 16:35:00 +0000
+From: "Customer Service" <noreply@legitimate-bank.com>
+To: customer@gmail.com
+Subject: Monthly account statement is ready
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="legit-boundary"
+
+--legit-boundary
+Content-Type: text/plain; charset=UTF-8
+
+Dear Valued Customer,
+
+Your monthly account statement for August 2025 is now available for viewing in your online banking portal.
+
+To access your statement:
+1. Log in to your account at https://secure.legitimate-bank.com/login
+2. Navigate to the "Statements" section
+3. Download your August 2025 statement
+
+If you have any questions, please contact our customer service team at:
+Phone: 1-800-555-0123
+Email: support@legitimate-bank.com
+
+Thank you for banking with us.
+
+Best regards,
+Customer Service Team
+Legitimate Bank
+
+--legit-boundary
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .header { color: #003366; font-size: 18px; font-weight: bold; }
+        .content { margin: 15px 0; line-height: 1.6; }
+        .footer { margin-top: 30px; font-size: 12px; color: #666; }
+        .button { background: #003366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="header">Legitimate Bank</div>
+    
+    <div class="content">
+        <p>Dear Valued Customer,</p>
+        
+        <p>Your monthly account statement for August 2025 is now available for viewing in your online banking portal.</p>
+        
+        <p>To access your statement:</p>
+        <ol>
+            <li>Log in to your account at <a href="https://secure.legitimate-bank.com/login">https://secure.legitimate-bank.com/login</a></li>
+            <li>Navigate to the "Statements" section</li>
+            <li>Download your August 2025 statement</li>
+        </ol>
+        
+        <p><a href="https://secure.legitimate-bank.com/login" class="button">Access Online Banking</a></p>
+        
+        <p>If you have any questions, please contact our customer service team:</p>
+        <ul>
+            <li>Phone: 1-800-555-0123</li>
+            <li>Email: <a href="mailto:support@legitimate-bank.com">support@legitimate-bank.com</a></li>
+        </ul>
+    </div>
+    
+    <div class="footer">
+        <p>Thank you for banking with us.</p>
+        <p>Best regards,<br>Customer Service Team<br>Legitimate Bank</p>
+        <p><small>This is an automated message. Please do not reply to this email.</small></p>
+    </div>
+</body>
+</html>
+
+--legit-boundary--

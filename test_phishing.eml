@@ -1,0 +1,74 @@
+Return-Path: <phishing@fake-bank.com>
+Delivered-To: victim@gmail.com
+Received: by gmail.com with SMTP id fake123
+        for <victim@gmail.com>; Fri, 6 Sep 2025 16:30:00 +0000 (UTC)
+Received-SPF: fail (gmail.com: domain of phishing@fake-bank.com does not designate 192.168.1.100 as permitted sender) client-ip=192.168.1.100;
+Authentication-Results: gmail.com;
+       spf=fail (gmail.com: domain of phishing@fake-bank.com does not designate 192.168.1.100 as permitted sender) smtp.mail=phishing@fake-bank.com;
+       dkim=fail
+Message-ID: <f4k3-m3ss4g3-1d@fake-bank.com>
+Date: Fri, 6 Sep 2025 16:30:00 +0000
+From: "Security Team" <security@legitimate-bank.com>
+To: victim@gmail.com
+Subject: URGENT: Your account will be suspended in 24 hours!
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="boundary123"
+
+--boundary123
+Content-Type: text/plain; charset=UTF-8
+
+URGENT SECURITY ALERT
+
+Your account has been compromised and will be suspended in 24 hours unless you verify your identity immediately.
+
+Click here to verify: http://192.168.1.100/phishing-page
+Or call our urgent hotline: +1-800-FAKE-NUM
+
+Act now to prevent account closure!
+
+Security Team
+Legitimate Bank
+
+--boundary123
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .hidden { display: none; }
+        .fake-button { background: #ff0000; color: white; padding: 10px; }
+    </style>
+    <script>
+        function redirectUser() {
+            window.location = "http://malicious-phishing-site.com/steal-data";
+        }
+    </script>
+</head>
+<body>
+    <h1>URGENT SECURITY ALERT</h1>
+    <p>Your account has been <strong>compromised</strong> and will be suspended in 24 hours!</p>
+    
+    <!-- Visible button -->
+    <button onclick="redirectUser()" class="fake-button">Verify Account</button>
+    
+    <!-- Hidden malicious links -->
+    <div class="hidden">
+        <a href="http://steal-credentials.evil.com">Hidden Link 1</a>
+        <a href="http://malware-download.bad.com/trojan.exe">Hidden Link 2</a>
+    </div>
+    
+    <!-- Meta refresh redirect -->
+    <meta http-equiv="refresh" content="5;url=http://backup-phishing.evil.com">
+    
+    <!-- CSS hidden content -->
+    <p style="color: transparent; font-size: 0px;">
+        This is hidden text with http://another-malicious-site.com/data-theft
+    </p>
+    
+    <p>Act now to prevent account closure!</p>
+    <p>Security Team<br>Legitimate Bank</p>
+</body>
+</html>
+
+--boundary123--
